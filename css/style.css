@@ -64,7 +64,7 @@ body {
 
 .contact-link {
   color: var(--primary-text-color);
-
+  font-style: normal;
   text-decoration: none;
 }
 
