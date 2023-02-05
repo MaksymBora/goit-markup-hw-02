@@ -48,7 +48,7 @@ body {
   text-decoration: none;
 }
 
-.logo .logo-style {
+.logo .accent {
   color: var(--logo-color);
 }
 
@@ -56,21 +56,21 @@ body {
   list-style: none;
 }
 
-.menu .link {
+.menu .menu-link {
   color: var(--secondary-text-color);
   font-weight: 500;
 
   text-decoration: none;
 }
 
-.menu .link:active,
-.menu .link:focus,
+.menu .menu-link:active,
+.menu .menu-link:focus,
 .contact-link:active,
 .contact-link:focus {
   color: var(--logo-color);
 }
 
-.menu .link:hover,
+.menu .menu-link:hover,
 .contact-link:hover {
   color: var(--logo-color);
 }
@@ -81,7 +81,7 @@ body {
   text-decoration: none;
 }
 
-.link.current {
+.menu-link.current {
   color: var(--items-active-color);
 }
 
@@ -131,9 +131,9 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Gallety & our team */
+/* Gallety */
 
-.list-item-head {
+.section-head {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -146,6 +146,8 @@ body {
 .gallery-list {
   list-style: none;
 }
+
+/* Our Team */
 
 .team-list {
   list-style: none;
@@ -186,12 +188,12 @@ body {
   cursor: pointer;
 }
 
-.filter-btn.all {
+.filter-btn.all-ftrs {
   background-color: var(--items-active-color);
   color: var(--btn-hero-color);
 }
 
-.filter-btn.all:hover {
+.filter-btn.all-ftrs:hover {
   background-color: var(--btn-bg-color);
 }
 
@@ -209,7 +211,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.portfolio-list-item .card {
+.portfolio-item .card {
   text-decoration: none;
 }
 
