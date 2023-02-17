@@ -63,15 +63,18 @@ body {
   text-decoration: none;
 }
 
-.menu .menu-link:active,
-.menu .menu-link:focus,
-.contact-link:active,
+.menu .menu-link:hover,
+.menu .menu-link:focus {
+  color: var(--logo-color);
+}
+
+.contact-link:hover,
 .contact-link:focus {
   color: var(--logo-color);
 }
 
-.menu .menu-link:hover,
-.contact-link:hover {
+.contact-link:active,
+.menu .menu-link:active {
   color: var(--logo-color);
 }
 
